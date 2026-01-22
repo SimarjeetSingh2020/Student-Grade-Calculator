@@ -1,7 +1,7 @@
 # Student-Grade-Calculator
 The Student Grade Calculator is a Python-based console application designed to calculate a student’s grade based on marks entered by the user. The program validates user input, applies grading rules using decision-making logic, and displays encouraging feedback.
 
-Project Goals;
+Project Goals:
 
 1. To understand if–else decision-making.
 
