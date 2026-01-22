@@ -1,0 +1,82 @@
+Student Grade Calculator – Test Cases
+
+---
+
+Test Case 1: Valid High Score
+Input:
+Name: Riya
+Marks: 95
+Expected Output:
+Grade: A
+Message: Excellent work!
+Result: Pass
+
+---
+
+Test Case 2: Valid Mid Score
+Input:
+Name: Aman
+Marks: 82
+Expected Output:
+Grade: B
+Message: Great job! Keep pushing
+Result: Pass
+
+---
+
+Test Case 3: Boundary Value (Lowest Pass)
+Input:
+Name: Neha
+Marks: 60
+Expected Output:
+Grade: D
+Message: You passed, but keep practicing
+Result: Pass
+
+---
+
+Test Case 4: Fail Case
+Input:
+Name: Rahul
+Marks: 45
+Expected Output:
+Grade: F
+Message: Don't give up! Try again
+Result: Pass
+
+---
+
+Test Case 5: Invalid Input (Above Range)
+Input:
+Name: Karan
+Marks: 120
+Expected Behavior:
+Error message shown
+User asked to re-enter marks
+Result: Pass
+
+---
+
+Test Case 6: Invalid Input (Negative Value)
+Input:
+Name: Simran
+Marks: -10
+Expected Behavior:
+Error message shown
+User asked to re-enter marks
+Result: Pass
+
+---
+
+Test Case 7: Invalid Input (Non-numeric)
+Input:
+Name: Arjun
+Marks: eighty
+Expected Behavior:
+Error message shown
+User asked to re-enter marks
+Result: Pass
+
+---
+
+All test cases executed successfully.
